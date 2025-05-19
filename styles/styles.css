@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: aqua;
+    background-color: black;
+
+}
+
+.imagen {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.tablas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.textoserv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.infocont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+  background-image:url('img/america.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  height: 100vh;    
+  background-image: url('america.jpg');
+}
